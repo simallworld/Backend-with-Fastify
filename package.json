@@ -1,0 +1,17 @@
+{
+  "name": "backend-with-fastify",
+  "version": "1.0.0",
+  "description": "Backend with fastify",
+  "keywords": [
+    "fastify"
+  ],
+  "author": "Shivam Swaroop",
+  "type": "modulejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "fastify": "^5.12.5"
+  }
+}
