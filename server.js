@@ -1,6 +1,10 @@
 import Fastify from "fastify";
+import userRoute from "./src/routes/user.js";
 
 const fastify = new Fastify({ logger: true });
+
+// Plugins-
+fastify.register(userRoute);
 
 // Routing-
 fastify.get("/", async (request, reply) => {
